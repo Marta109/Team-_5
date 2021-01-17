@@ -2,9 +2,9 @@ import React from 'react';
 
 import './button.scss';
 
-const Button = () =>{
+const Button = ({children}) =>{
     return(
-        <button className='app-button'>Visit the store</button>
+        <button className='app-button'>{children}</button>
     )
 }
 export default Button;
