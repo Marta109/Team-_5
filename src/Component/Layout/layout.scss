@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.app-layout{
+    display: flex;
+    margin: 0 20px 0 20px;;
+    height: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-between;
+}
