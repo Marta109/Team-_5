@@ -7,7 +7,6 @@ import './layout.scss';
 const Layout = () =>{
     return(
         <div className='app-layout'>
-           <Image />
         </div>
     )
 }
