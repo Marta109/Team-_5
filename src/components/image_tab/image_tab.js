@@ -6,7 +6,7 @@ import './image_tab.scss';
 
 const Image = () =>{
     return(
-        <div>
+        <div className="image-tab">
              <div className="image-text">
                 <p className="title-text">Nest.com has moved to the Google Store.</p>
                 <p className="desc-text">Nest and Google Home have joined together as Google Nest. Moving forward, 

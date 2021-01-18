@@ -2,8 +2,11 @@
 
 .app-layout{
     display: flex;
-    margin: 0 20px 0 20px;;
+   // justify-content: center;
+  // margin: 0 20px 0 20px;
     height: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: #ffffff;
     flex-direction: column;
     justify-content: space-between;
