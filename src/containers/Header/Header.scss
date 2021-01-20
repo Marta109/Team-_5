@@ -1,0 +1,54 @@
+.app-header {
+  background-color: #ffffff;
+  top: 0pc;
+  height: 174px;
+  margin-bottom: 15px;
+  margin: 0px 20px 0px;
+}
+
+.app-header-txt {
+  background-color: #069ab6;
+  margin: 0px 15px 0px;
+  padding: 12px 10px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.h-a {
+  color: #fff;
+  text-decoration: none;
+}
+b:hover {
+  position: relative;
+  left: 10px;
+  transition: 0.2s ease-in-out;
+}
+.app-links {
+  color: #7c8287;
+  text-decoration: none;
+  list-style-type: none;
+
+  display: flex;
+  margin-right: 10 px;
+  justify-content: flex-end;
+  margin: 10px 100px 5px 0px;
+}
+
+div.app-links a:hover {
+  color: #069ab6;
+}
+
+.logo {
+  text-align: center;
+  color: #7c8287;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: condensed;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+}

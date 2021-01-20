@@ -6,16 +6,19 @@
     font-size: 36px;
     color: $main-color;
     margin-top: 50px;
+    margin-left:100px ;
     padding-left: 100px;
 }
 .desc-text{
-    width: 300px;
-    position: absolute;
+     width: 250px;
+     position: absolute;
     font-size: 16px;
     color: $main-color;
-    padding-top: 200px;
-    padding-left: 100px;
-    text-align: start;
+    margin-top: 180px;
+    margin-left: 85px;
+      padding-top: 400px;
+     padding-left: 100px;
+     text-align: start;
 }
 .image-tab{
     margin: 0 auto;

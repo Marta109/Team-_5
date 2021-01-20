@@ -1,13 +1,16 @@
-import React from 'react';
-import Image from '../image_tab/image_tab';
+import React from "react";
+import Image from "../image_tab/image_tab";
+import ProductList from "../../containers/ProductList/ProductList";
 
-import './layout.scss';
+import "./layout.scss";
 
-const Layout = () =>{
-    return(
-        <div className='app-layout'>
-            <Image />
-        </div>
-    )
-}
+const Layout = ({ children }) => {
+  return (
+    <div className="app-layout">
+      {children}
+      <Image />
+      <ProductList />
+    </div>
+  );
+};
 export default Layout;
