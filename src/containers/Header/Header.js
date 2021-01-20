@@ -25,7 +25,6 @@ const Header = () => {
             </a>
           </li>
           <li className="login">
-            {" "}
             <i className="far fa-user-circle"></i>
           </li>
           <button className="button">Sign in</button>

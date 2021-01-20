@@ -12,7 +12,7 @@ const Footer = () => {
               href="//nest.com/legal/privacy-policy-for-nest-web-sites/"
               title="Legal"
             >
-              | Legal{" "}
+              | Legal
             </a>
           </li>
           <li>
@@ -30,7 +30,7 @@ const Footer = () => {
               href="//nest.com/choose-your-country/"
               title="Choose your country"
             >Change&#160;
-              <b>></b>{" "}
+              <b>></b>
             </a>
           </div>
         </li>
