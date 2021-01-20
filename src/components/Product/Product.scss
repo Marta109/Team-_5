@@ -1,17 +1,18 @@
 .product-wrapper {
   text-align: center;
   width: 10%;
-  border: 1px solid black;
-  background-color: gray;
+  float:left;
+  margin: 1% calc(90%/32);
 }
 
 img{
-    width:80%
+    width:80%;
+    margin: 10% !important;
 }
 
 p{
     padding : 5% !important;
     &:hover{
-        color: white;
+        color: lightblue;
     }
 }

@@ -6,7 +6,7 @@ const Product = (props) => {
     return (
         <div className="product-wrapper">
             <img src={props.src} alt={props.name}/>
-            <p>{props.name}</p>
+            <p>{props.name}</p> 
         </div>
     )
 }
