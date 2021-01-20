@@ -1,22 +1,16 @@
+import React from "react";
 
-import React from 'react';
+import Layout from "./components/Layout/layout";
 
-
-
-import Layout from './components/Layout/layout';
-
-
-import './App.css';
-import './styles/reset.scss';
+import "./App.css";
+import "./styles/reset.scss";
 
 function App() {
   return (
     <div className="App">
-
-       
-
-     <Layout />
-
+      <Layout>
+        <header className="App-header"></header>
+      </Layout>
     </div>
   );
 }
