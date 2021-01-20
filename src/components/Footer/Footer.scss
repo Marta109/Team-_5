@@ -1,60 +1,52 @@
 .app-footer {
-   background-color: #4F565D;
-    bottom: 0px;
-    height: 174px;
-    margin: 0px 15px 0px;
-    display: block;
-  }
-  .about {
-      display: flex;
-      color: white;
+  background-color: #4f565d;
+  bottom: 0px;
+  height: 174px;
+  margin: 0px 20px 0px;
+  display: block;
+}
+.about {
+  display: flex;
+  color: white;
   border-right: none;
   margin-right: 0;
   padding-right: 0;
-padding-top: 80px;
-padding-left: 150px;
+  padding-top: 80px;
+  padding-left: 150px;
 }
-.links{
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: 10px;
-    font-size: 13px;
-  
+.links {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 13px;
 }
 
 a:hover {
-    color: #afb2b3;
-  }
-   
-  .changCountry{
-     display: block;
-     justify-content: flex-end;
+  color: #afb2b3;
+}
 
-  margin-left: 900px;
+.changCountry {
+  display: flex;
+  // display: block;
+  //  justify-content: flex-end;
+  margin-left: 500px;
+  // margin-bottom: 90px;
+  // left: 80%;
+  //  margin-top: 0px;
+  //     position: relative;
+  //  bottom: 55px;
+  // top: 65pc;
+  //  margin-top: 0px;
+}
+.changCountrys {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 20px;
+}
 
-//     position: relative;
-//  bottom: 35px;
-  left: 80%;
-//  margin-top: 0px;
-
-  } 
-  .changCountrys{
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-//     margin-left: 10px;
-//     font-size: 13px;
-//    position: relative;
-//   bottom: 35px;
-//   left: 80%;
-
-  }
-
-
-  .img{
-      height: 40px;
-      width: 40px;
-      margin-right: 10px;
-    //   margin-top: 5px;
-  }
+.img {
+  height: 40px;
+  width: 40px;
+}
