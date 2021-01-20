@@ -1,6 +1,10 @@
+
 import React from 'react';
 
-import ProductList from './containers/ProductList/ProductList';
+
+
+import Layout from './components/Layout/layout';
+
 
 import './App.css';
 import './styles/reset.scss';
@@ -8,7 +12,11 @@ import './styles/reset.scss';
 function App() {
   return (
     <div className="App">
+
        
+
+     <Layout />
+
     </div>
   );
 }
