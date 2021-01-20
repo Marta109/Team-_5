@@ -3,9 +3,10 @@ import Image from '../image_tab/image_tab';
 
 import './layout.scss';
 
-const Layout = () =>{
+const Layout = ({ children }) =>{
     return(
         <div className='app-layout'>
+             {children}
             <Image />
         </div>
     )
