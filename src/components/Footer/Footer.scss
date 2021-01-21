@@ -15,13 +15,15 @@
   padding-left: 150px;
 }
 .links {
+  margin-left: 15px;
+  padding-left: 45px;
+  font-size: 13px;
+}
+a {
   color: white;
   text-decoration: none;
   list-style-type: none;
-  margin-left: 10px;
-  font-size: 13px;
 }
-
 a:hover {
   color: #afb2b3;
 }
@@ -29,6 +31,7 @@ a:hover {
 .changCountry {
   display: flex;
   margin-left: 500px;
+  margin-top: -20px;
 }
 .changCountrys {
   color: white;
