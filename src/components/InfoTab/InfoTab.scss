@@ -1,0 +1,61 @@
+@import '../../styles/variables';
+
+.info-tab{
+    width: 100%;
+}
+.first-text{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+    color: $primary-color;
+    line-height: 24px;
+    font-size:20px;
+    margin-bottom: 50px;
+   
+}
+.first-text--learn-more{
+   padding-top: 50px;
+   margin-top:50px;
+    text-decoration: none;
+    font-size: 16px;
+    color:$secondary-color;
+}
+
+.section-line{
+    margin: 0 20px 0 20px;
+    color: $primary-color;
+    height: 1px;
+    border-style: inset;
+}
+
+.girl-with-tablet{
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+.girl-text{
+    float: right;
+    padding-right: 250px;
+    padding-top:150px;
+}
+.girl-text-title{
+   font-size:36px;
+   width: 250px;
+   color: $primary-color;
+}
+.girl-text-desc{
+    width: 250px;
+    padding-top:70px;
+    font-size: 16px;
+    line-height: 20px;
+    color:$primary-color;
+}
+.copyright{
+    padding:20px 0 20px 0;
+    font-size: 12px;
+    text-align: center;
+    color:$primary-color;
+}
+.google-logo{
+    padding: 30px 0 30px 0;
+}

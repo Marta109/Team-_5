@@ -1,18 +1,21 @@
+@import '../../styles/variables';
+
 .product-wrapper {
   text-align: center;
   width: 10%;
   float:left;
   margin: 1% calc(90%/32);
+  
 }
 
-img{
+.product-image{
     width:80%;
     margin: 10% !important;
 }
 
-p{
+.product-name{
     padding : 5% !important;
     &:hover{
-        color: lightblue;
+        color: $secondary-color;
     }
 }

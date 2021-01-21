@@ -1,6 +1,7 @@
 import React from 'react';
-import Imag from '../../assets/img/desktopimg.jpg';
+
 import Button from '../button/button';
+import Imag from '../../assets/img/desktopimg.jpg';
 
 import './image_tab.scss';
 
