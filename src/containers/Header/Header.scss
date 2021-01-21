@@ -12,9 +12,9 @@
   padding: 12px 10px 10px;
   text-align: center;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
 }
-.h-a {
+a {
   color: #fff;
   text-decoration: none;
 }
@@ -27,15 +27,16 @@ b:hover {
   color: #7c8287;
   text-decoration: none;
   list-style-type: none;
-
+  font-size: 20px;
   display: flex;
-  margin-right: 10 px;
+  margin-left: 20 px;
   justify-content: flex-end;
   margin: 10px 100px 5px 0px;
 }
 
 div.app-links a:hover {
   color: #069ab6;
+  font-size: 23px;
 }
 
 .logo {

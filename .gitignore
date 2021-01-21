@@ -24,3 +24,5 @@ yarn-error.log*
  
 #  our 
 .eslintcache
+debug.log
+

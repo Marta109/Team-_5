@@ -3,23 +3,20 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="app-footer">
-      <ul className="links">
+      <ul>
         <li className="about">
           © 2021 Nest Labs
-          <li>
+          <div className="links">
             <a
-              className="links"
               href="//nest.com/legal/privacy-policy-for-nest-web-sites/"
               title="Legal"
             >
-              | Legal{" "}
+              | Legal
             </a>
-          </li>
-          <li>
-            <a className="links" href="//nest.com/privacy/" title="Privacy">
-              | Privacy
+            <a href="//nest.com/privacy/" title="Privacy">
+              &#160;| Privacy
             </a>
-          </li>
+          </div>
           <div className="changCountry">
             <img
               className="img"
@@ -29,8 +26,8 @@ const Footer = () => {
               className="changCountrys"
               href="//nest.com/choose-your-country/"
               title="Choose your country"
-            >Change&#160;
-              <b>></b>{" "}
+            >
+              <b>Change&#160;➤</b>
             </a>
           </div>
         </li>

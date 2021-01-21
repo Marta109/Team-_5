@@ -15,29 +15,23 @@
   padding-left: 150px;
 }
 .links {
+  margin-left: 15px;
+  padding-left: 45px;
+  font-size: 13px;
+}
+a {
   color: white;
   text-decoration: none;
   list-style-type: none;
-  margin-left: 10px;
-  font-size: 13px;
 }
-
 a:hover {
   color: #afb2b3;
 }
 
 .changCountry {
   display: flex;
-  // display: block;
-  //  justify-content: flex-end;
   margin-left: 500px;
-  // margin-bottom: 90px;
-  // left: 80%;
-  //  margin-top: 0px;
-  //     position: relative;
-  //  bottom: 55px;
-  // top: 65pc;
-  //  margin-top: 0px;
+  margin-top: -20px;
 }
 .changCountrys {
   color: white;
