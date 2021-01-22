@@ -6,15 +6,16 @@ import Google from '../icon/icon';
 import './InfoTab.scss'
 
 const InfoTab = () => {
-    return (
-        <div className='info-tab'>
-            <hr className="section-line"/>
-                 <div className="first-text">
+    return ( 
+        <div className='info-tab' >
+                 <div className="first-text"> 
+                 
+                     <hr className="section-line1"/>
                      <Google className="google-logo" />
                      <p>For too long, the smart home hasn’t been very smart. It’s complicated to set up and manage, with a lot of different devices that don’t work well together. So we’re simplifying things and bringing together all Nest and Google Home products under one roof. Introducing Google Nest. Welcome to the helpful&nbsp;home.</p>
                      <br></br>
                      <a className="first-text--learn-more" href=' '>Learn more about Google&nbsp;Nest</a>
-            </div>
+             </div>
             <div>
                 <img className="girl-with-tablet" src={girl} alt='girl' />
                     <div className="girl-text">
