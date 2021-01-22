@@ -21,6 +21,7 @@ const Footer = () => {
             <img
               className="img"
               src={require("../../assets/usa.svg").default}
+              alt="USA"
             />
             <a
               className="changCountrys"
