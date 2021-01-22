@@ -27,7 +27,7 @@ const Footer = () => {
               href="//nest.com/choose-your-country/"
               title="Choose your country"
             >
-              <b>Change&#160;➤</b>
+              <b>| Change&#160;➤</b>
             </a>
           </div>
         </li>
