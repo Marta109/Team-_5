@@ -14,38 +14,34 @@ const Menu = () => {
       className="micons"
       menuButton={
         <MenuButton>
-          {" "}
           <AccountCircleSharpIcon className="menu" />
           Sign in
         </MenuButton>
       }
     >
       <MenuItem>
-        <HomeIcon />{" "}
+        <HomeIcon />
         <i>
-          {" "}
-          <a href="https://nest.com/">My nest home </a>{" "}
+          <a href="https://nest.com/">My nest home </a>
         </i>
       </MenuItem>
       <MenuItem>
-        <PostAddIcon />{" "}
+        <PostAddIcon />
         <i>
-          {" "}
           <a href="https://clck.ru/Su7zJ">Order status</a>
         </i>
       </MenuItem>
       <MenuItem>
-        <CloudUploadIcon />{" "}
+        <CloudUploadIcon />
         <i>
-          {" "}
           <a href="https://clck.ru/Su7y5">Subscriptions</a>
-        </i>{" "}
+        </i>
       </MenuItem>
       <MenuItem>
         <SettingsIcon />
         <i>
           <a href="https://clck.ru/Su7vv"> Settings </a>
-        </i>{" "}
+        </i>
       </MenuItem>
     </Mn>
   );
