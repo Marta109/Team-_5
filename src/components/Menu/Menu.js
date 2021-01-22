@@ -1,11 +1,13 @@
 import React from "react";
 import { Menu as Mn, MenuItem, MenuButton } from "@szhsin/react-menu";
-import "@szhsin/react-menu/dist/index.css";
+
 import AccountCircleSharpIcon from "@material-ui/icons/AccountCircleSharp";
 import HomeIcon from "@material-ui/icons/Home";
 import PostAddIcon from "@material-ui/icons/PostAdd";
 import CloudUploadIcon from "@material-ui/icons/CloudUpload";
 import SettingsIcon from "@material-ui/icons/Settings";
+
+import "@szhsin/react-menu/dist/index.css";
 import "./Menu.scss";
 
 const Menu = () => {
