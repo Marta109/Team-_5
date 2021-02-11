@@ -1,12 +1,7 @@
 import React from "react";
 import { Menu as Mn, MenuItem, MenuButton } from "@szhsin/react-menu";
-//import { HomeIcon ,  PostAddIcon , CloudUploadIcon , SettingsIcon } from "@material-ui/icons";
 import AccountCircleSharpIcon from "@material-ui/icons/AccountCircleSharp";
-import  HomeIcon from "@material-ui/icons/Home";
-import PostAddIcon from "@material-ui/icons/PostAdd";
-import CloudUploadIcon from "@material-ui/icons/CloudUpload";
-import SettingsIcon from "@material-ui/icons/Settings";
-
+import { Home , PostAdd ,CloudUpload, Settings} from "@material-ui/icons";
 import "@szhsin/react-menu/dist/index.css";
 import "./Menu.scss";
 
@@ -22,25 +17,26 @@ const Menu = () => {
       }
     >
       <MenuItem >
-        <HomeIcon  />
+      <Home/>
+        {/* <HomeIcon  /> */}
         <i className='app-i'>
           <a href="https://nest.com/">My nest home </a>
         </i>
       </MenuItem>
       <MenuItem>
-        <PostAddIcon />
+        <PostAdd />
         <i className='app-i'>
           <a href="https://clck.ru/Su7zJ">Order status</a>
         </i>
       </MenuItem>
       <MenuItem>
-        <CloudUploadIcon />
+        <CloudUpload />
         <i className='app-i'>
           <a href="https://clck.ru/Su7y5">Subscriptions</a>
         </i>
       </MenuItem>
       <MenuItem>
-        <SettingsIcon />
+        <Settings />
         <i className='app-i'>
           <a href="https://clck.ru/Su7vv"> Settings </a>
         </i>
