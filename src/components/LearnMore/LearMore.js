@@ -1,7 +1,7 @@
 import React from 'react';
 import './LearnMore.scss';
 
-const LearnMore =(props)=>{
+const LearnMore =()=>{
     return(
     <div className="app-txt" > 
         We’re here to help. Talk to a Google Nest expert. 
